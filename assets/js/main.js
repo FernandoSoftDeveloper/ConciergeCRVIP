@@ -51,3 +51,7 @@ $(document).ready(function () {
         autoplayTimeout: 4000,
     })
 });
+
+
+
+AOS.init();

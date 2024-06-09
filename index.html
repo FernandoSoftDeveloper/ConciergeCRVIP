@@ -45,7 +45,14 @@
     <script src="https://kit.fontawesome.com/9a6f0fd7f8.js" crossorigin="anonymous"></script>
 
     <!-- Main CSS Styles -->
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
     <link rel="stylesheet" href="./assets/css/style.css">
+
 
 </head>
 
@@ -146,9 +153,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center text-white">
-                            <h6 class="text-white text-uppercase">Wishing an unforgettable moment?
+                            <h6 class="animate__animated animate__pulse pt-2 text-white text-uppercase">Wishing an unforgettable moment?
                             </h6>
-                            <h1 class="display-3">We provide<br />unique experiences...</h1>
+                            <h1 class="animate__animated animate__rubberBand display-3">We provide<br />unique experiences...</h1>
                             <!--  
                             <a href="#" class="btn btn-brand">About Us</a>
                             <a href="#" class="btn btn-outline-light ms-3">Our Services</a>-->
@@ -193,7 +200,7 @@
                                     <!--<img src="./assets/images/home02.jpg" alt="">-->
                                     <i class="fa-solid fa-binoculars"></i>
                                     <div class="ms-4">
-                                        <h5>Organization of Tour</h5>
+                                        <h5 class="animate__backInLeft">Organization of Tour</h5>
                                         <p>
                                             City Tours (several routes in San José), Museums Tours, Volcans Tours.
                                         </p>
@@ -243,7 +250,7 @@
         <!-- Description Section Starts -->
         <section id="description">
 
-            <div class="container py-5 border-top border-bottom">
+            <div data-aos="fade-down" class="container py-5 border-top border-bottom">
 
                 <h2 class="py-4 text-center">What does a Concierge do?</h2>
 
@@ -437,6 +444,8 @@
     <!-- Footer Section Ends -->
 
     <!-- ######################## JavaScript Files ######################### -->
+    <script src="bower_components/aos/dist/aos.js"></script>
+
 
     <!-- Bootstrap5.3.2 Scripts -->
     <script src="./assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
